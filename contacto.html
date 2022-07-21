@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/libello.PNG">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Contacto</title>
+</head>
+
+<body class="body">
+    <header class="encabezado">
+        <nav class="navbar navbar-light bg-light">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                <img src="./images/libello.PNG" alt="" width="600" height="390">
+              </a>
+            </div>
+          </nav>
+            <ul class="flexLista">
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./sobre-mi.html">Sobre mi</a></li>
+                <li><a href="./productos.html">Productos</a></li>
+                <li><a href="./galeria.html">Galeria</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+     
+    <main>
+        <form action="#" method="get">
+            <label>
+                <input type="text" placeholder="Juan" name="Nombre">
+                <input type="text" placeholder="Perez" name="Apellido">  
+            </label>
+            <input type="email" placeholder="Email" name="correo-electronico" id="email">
+            <input type="mensaje" name="Deje su mensaje aquí">
+            <input type="submit"><br>
+            <label>
+                <span>Quiero recibir novedades</span>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                     Si
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                    <label class="form-check-label" for="flexRadioDefault2">
+                      No
+                    </label>
+                  </div>
+            </label>
+            <br>
+            <textarea name="Deje su mensaje" cols="30" rows="10">Deje su mensaje</textarea>
+
+            <fieldset>
+                <legend>Como tenes lo que queres!</legend>
+                <label for="envio">Envio a domicilio</label>
+                <input type="radio" name="envio" id="Envio a domicilio">
+                <label for="retiro en local">Retiro en local</label>
+                <input type="radio" name="retiro en local" id="Retiro en local">
+                <br>
+                <label for="provincia">Provincia</label>
+                <select name="" id="">
+                    <option value="bsas">Buenos Aires</option>
+                    <option value="caba">CABA</option>
+                    <option value="interior">Interior</option>
+                </select>
+            </fieldset>
+        </form>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105073.44366949785!2d-58.503338013118224!3d-34.6156624588238!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca3b4ef90cbd%3A0xa0b3812e88e88e87!2sBuenos%20Aires%2C%20CABA!5e0!3m2!1ses!2sar!4v1657515133930!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </main>
+
+    <footer>
+        <nav>
+          <ul class="flexLista">
+             <li><a href="https://www.facebook.com/" target="_blank" >Facebook</a></li>
+             <li><a href="https://www.instagram.com/" target="_blank" >Instagram</a></li>
+          </ul> 
+        </nav>
+     </footer>
+</body>
+
+</html>
